@@ -174,7 +174,7 @@ def process_resumes(resume_files, job_desc_text):
 
 # Streamlit UI
 def main():
-    st.set_page_config(page_title="AI-Powered Resume Ranking", layout="wide")
+    #st.set_page_config(page_title="AI-Powered Resume Ranking", layout="wide")
 
     st.title("🎯 AI-Powered Resume Ranking with ML Models")
     st.markdown("Upload resumes and enter a job description to rank the resumes based on relevance using ML models.")
@@ -237,3 +237,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
