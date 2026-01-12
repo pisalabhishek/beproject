@@ -1,4 +1,6 @@
 torch==2.1.2
+matplotlib==3.8.2
+
 transformers==4.36.2
 sentencepiece
 spacy==3.7.2
