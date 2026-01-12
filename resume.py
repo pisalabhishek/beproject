@@ -18,6 +18,12 @@ import matplotlib.pyplot as plt
 import tempfile
 
 
+st.set_page_config(
+    page_title="AI-Powered Resume Ranking",
+    layout="wide"
+)
+
+
 # Load NLP models
 @st.cache_resource
 def load_models():
@@ -229,4 +235,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
